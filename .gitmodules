@@ -1,0 +1,3 @@
+[submodule "CAIL2018"]
+	path = CAIL2018
+	url = git@github.com:thunlp/CAIL2018.git
