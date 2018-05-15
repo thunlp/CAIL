@@ -50,7 +50,6 @@
 	{  
 		"relevant_articles": [234],  
 		"accusation": ["故意伤害"], 
-		"punish_of_money": 0,  
 		"criminals": ["段某"],  
 		"term_of_imprisonment": 
 		{  
