@@ -130,12 +130,20 @@
 
 ```
 python3.5.2
-tensorflow 1.7
-pytorch 0.3.1
+numpy 1.14.3
+scipy 1.1
 gensim 3.4
 sklearn 0.19.1
-scipy 1.1
-numpy 1.14.3
+pandas 0.22.0
+xgboost 0.71
+
+pyltp 0.2.1
+jieba 0.39
+
+Keras 2.1.6
+Theano 1.0.1
+tensorflow 1.7
+pytorch 0.3.1
 ```
 
 如果有其他需要的环境，请联系比赛管理员进行安装。
