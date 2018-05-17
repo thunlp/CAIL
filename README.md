@@ -130,6 +130,9 @@
 
 ```
 python3.5.2
+cuda 9.0
+cudnn 7.0
+
 numpy 1.14.3
 scipy 1.1
 gensim 3.4
