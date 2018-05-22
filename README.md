@@ -139,6 +139,11 @@ gensim 3.4
 sklearn 0.19.1
 pandas 0.22.0
 xgboost 0.71
+Cython 0.28.2
+fasttext 0.8.3
+joblib 0.11
+GPUtil 1.3.0
+ruamel.base 1.0.0
 
 pyltp 0.2.1
 jieba 0.39
