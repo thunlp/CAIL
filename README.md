@@ -106,7 +106,7 @@
 
 ### 2.4 基线系统
 
-竞赛组织方稍后会提供了两个开源的针对不同任务的基线系统（LibSVM、RNN）。
+竞赛组织方提供了一个开源的针对不同任务的基线系统（[LibSVM](https://github.com/thunlp/CAIL2018/tree/master/baseline)）。
 
 ## FAQ
 
