@@ -124,7 +124,7 @@
 
 我们主要支持python3.5的编译环境，有GPU（Tesla P100 16G）。如果需要C++（服务器版本为5.4.0）或者Java（服务器版本为1.8.0_171），可以参考[代码提交说明](https://github.com/thunlp/CAIL2018)进行编译上传。
 
-现有python3.5环境可以参考[python环境列表](https://github.com/thunlp/CAIL2018#%E7%8E%B0%E6%9C%89%E7%9A%84%E7%B3%BB%E7%BB%9F%E7%8E%AF%E5%A2%83)。
+现有python3.5环境可以参考[python环境列表](https://github.com/thunlp/CAIL2018#现有python3.5系统环境)。
 
 如果有其他需要的环境，请联系比赛管理员进行安装。
 
