@@ -130,33 +130,7 @@
 
 我们主要支持python的编译环境，有GPU（Tesla P100 16G）。如果需要C++（服务器版本为5.4.0）或者Java（服务器版本为1.8.0_171），可以参考[代码提交说明](https://github.com/thunlp/CAIL2018)进行编译上传。
 
-现有环境包括：
-
-```
-python3.5.2
-cuda 9.0
-cudnn 7.0
-
-numpy 1.14.3
-scipy 1.1
-gensim 3.4
-sklearn 0.19.1
-pandas 0.22.0
-xgboost 0.71
-Cython 0.28.2
-fasttext 0.8.3
-joblib 0.11
-GPUtil 1.3.0
-ruamel.base 1.0.0
-
-pyltp 0.2.1
-jieba 0.39
-
-Keras 2.1.6
-Theano 1.0.1
-tensorflow 1.7
-pytorch 0.3.1
-```
+现有环境可以参考[环境列表](https://github.com/thunlp/CAIL2018)。
 
 如果有其他需要的环境，请联系比赛管理员进行安装。
 
