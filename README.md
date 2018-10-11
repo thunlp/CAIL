@@ -25,7 +25,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 数据集共包括`268万刑法法律文书`，共涉及[202条罪名](meta/accu.txt)，[183条法条](meta/law.txt)，刑期长短包括**0-25年、无期、死刑**。
 
-我们将先后发布CAIL2018-Small和CAIL2018-Large两组数据集。CAIL2018-Small包括19.6万份文书样例，直接在该网站发布，包括15万训练集，1.6万验证集和3万测试集。这部分数据可以[注册下载](http://cail.cipsc.org.cn)，供参赛者前期训练和测试。CAIL2018-Large数据集，包括150万文书样例。剩余90万份文书将作为第一阶段的测试数据CAIL2018-Large-test。
+我们将先后发布CAIL2018-Small和CAIL2018-Large两组数据集。CAIL2018-Small包括19.6万份文书样例，直接在该网站发布，包括15万训练集，1.6万验证集和3万测试集。CAIL2018-Large数据集，包括150万文书样例。剩余90万份文书将作为第一阶段的测试数据CAIL2018-Large-test。
 
 #### 2.2.1 字段及意义
 数据利用json格式储存，每一行为一条数据，每条数据均为一个字典。

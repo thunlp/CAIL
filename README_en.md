@@ -23,7 +23,7 @@ The data of the competition comes from the law documents of criminal cases publi
 
 The dataset contains `2,680,000 criminal law documents`，covered [202 charges](meta/accu.txt)，[183 articles](meta/law.txt)，and the term of penalty varies from **0 to 25 years, including the life imprisonment and the death penalty**.
 
-There are two parts of our dataset called CAIL2018-Small and CAIL2018-Large. CAIL2018-Small contains about 196,000 documents in total, including about 150,000 documents for training, 16,000 documents for validating and 30,000 documents for testing. CAIL2018-Large contains 1,500,000 documents for training, and another 900,000 documents for testing. You can download the dataset from the [website](http://cail.cipsc.org.cn).
+There are two parts of our dataset called CAIL2018-Small and CAIL2018-Large. CAIL2018-Small contains about 196,000 documents in total, including about 150,000 documents for training, 16,000 documents for validating and 30,000 documents for testing. CAIL2018-Large contains 1,500,000 documents for training, and another 900,000 documents for testing.
 
 #### 2.2.1 The Fields of Data
 The data are stored in JSON format and every line in the data contains one document. The details of the fields in the data are listed following:
