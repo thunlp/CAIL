@@ -113,3 +113,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 ### 0. 有没有选手交流的平台？
 
 选手交流QQ群：237633234。
+
+### 1. 从哪里可以下载到数据集？
+
+[这里](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip)。

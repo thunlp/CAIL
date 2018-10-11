@@ -112,3 +112,7 @@ We have provided a baseline system for all the three tasks([LibSVM](https://gith
 ### 0. Is there a platform for contestants to communicate with others？
 
 QQ group number: 237633234.
+
+### 1. Where can we download the dataset?
+
+[Here](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip).
