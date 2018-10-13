@@ -1,5 +1,10 @@
 #     Chinese AI and Law Challenge Competition
 
+## Content
+
+* [Introduction](Introduction)
+* [Task Specification](Task Specification)
+
 ## 1. Introduction
 
 Intelligent Legal aims at giving machines the ability to judge a case by predicting charges, relevant articles and the term of penalty. This application can help lawyers to judge more sufficiently. In recent years, the improvement of deep learning and natural language processing begins to help the field of law. The combination of AI and law has been noticed by many people.
@@ -60,13 +65,15 @@ Here is an example of the data:
 }
 ```
 
-### 2.3 Evaluation Methods
+### 2.3
+
+### 2.4 Evaluation Methods
 
 We have provided the scoring program for contestants, and you can find the details of the evaluation methods, environment and model submission at [here](https://github.com/thunlp/CAIL2018).
 
 The full score of every task is 100, and here are the details of evaluation methods.
 
-#### 2.3.1 Task 1, 2
+#### 2.4.1 Task 1, 2
 
 Task 1(Charge Prediction) and task 2(Relevant Articles Prediction) use Micro-F1-measure and Macro-F1-measure as the evaluation method. The calculation should follow:
 
@@ -76,7 +83,7 @@ And the final score should be:
 
 ![score1](pic/score_1.png)
 
-#### 2.3.2 Task 3
+#### 2.4.2 Task 3
 
 For task 3(The Term of Penalty Prediction), suppose the prediction result is `lp` and the standard answer is `la`, then let
 
@@ -96,14 +103,14 @@ Finally, the score of task 3 should be:
 
 ![score3](pic/score_3.png)
 
-#### 2.3.3 Total score
+#### 2.4.3 Total score
 
 The total score should be:
 
 ![score_all](pic/score_all.png)
 
 
-### 2.4 Baseline
+### 2.5 Baseline
 
 We have provided a baseline system for all the three tasks([LibSVM](https://github.com/thunlp/CAIL2018/tree/master/baseline)).
 
