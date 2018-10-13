@@ -63,9 +63,10 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 ### 2.3 数据集下载
 
-**CAIL2018数据集**已经正式发布下载，下载地址为 [CAIL2018数据集](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip)
+**CAIL2018数据集**已经正式发布下载，下载地址为 [CAIL2018数据集](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip)。
 
-**引用说明**
+##### 引用说明
+
 如果您引用CAIL2018数据集发表论文或取得科研成果，请您在发表论文和申报成果时声明“使用了CAIL2018数据集”，并按如下格式引用：
 
 * Xiao C, Zhong H, Guo Z, et al. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction[J]. arXiv preprint arXiv:1807.02478, 2018.
