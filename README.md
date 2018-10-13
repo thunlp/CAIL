@@ -74,7 +74,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 如果您引用CAIL2018数据集发表论文或取得科研成果，请您在发表论文和申报成果时声明“使用了CAIL2018数据集”，并按如下格式引用：
 
-* Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction. arXiv preprint arXiv:1807.02478, 2018.
+* Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction. arXiv preprint arXiv:1807.02478, 2018. [link](https://arxiv.org/abs/1807.02478)
 
 ### 2.4 评价方法
 
