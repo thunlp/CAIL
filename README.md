@@ -23,7 +23,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 本次挑战赛所使用的数据集是来自“[中国裁判文书网](http://wenshu.court.gov.cn/)”公开的刑事法律文书，其中每份数据由法律文书中的案情描述和事实部分组成，同时也包括每个案件所涉及的法条、被告人被判的罪名和刑期长短等要素。
 
-数据集共包括`268万刑法法律文书`，共涉及[202条罪名](meta/accu.txt)，[183条法条](meta/law.txt)，刑期长短包括**0-25年、无期、死刑**。
+数据集共包括**268万刑法法律文书**，共涉及[202条罪名](meta/accu.txt)，[183条法条](meta/law.txt)，刑期长短包括**0-25年、无期、死刑**。
 
 我们将先后发布CAIL2018-Small和CAIL2018-Large两组数据集。CAIL2018-Small包括19.6万份文书样例，直接在该网站发布，包括15万训练集，1.6万验证集和3万测试集。CAIL2018-Large数据集，包括150万文书样例。剩余90万份文书将作为第一阶段的测试数据CAIL2018-Large-test。
 
@@ -69,7 +69,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 如果您引用CAIL2018数据集发表论文或取得科研成果，请您在发表论文和申报成果时声明“使用了CAIL2018数据集”，并按如下格式引用：
 
-* Xiao C, Zhong H, Guo Z, et al. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction[J]. arXiv preprint arXiv:1807.02478, 2018.
+* Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction. arXiv preprint arXiv:1807.02478, 2018.
 
 ### 2.4 评价方法
 
