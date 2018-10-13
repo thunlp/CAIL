@@ -28,7 +28,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 本次挑战赛所使用的数据集是来自“[中国裁判文书网](http://wenshu.court.gov.cn/)”公开的刑事法律文书，其中每份数据由法律文书中的案情描述和事实部分组成，同时也包括每个案件所涉及的法条、被告人被判的罪名和刑期长短等要素。
 
-数据集共包括`268万刑法法律文书`，共涉及[202条罪名](meta/accu.txt)，[183条法条](meta/law.txt)，刑期长短包括**0-25年、无期、死刑**。
+数据集共包括**268万刑法法律文书**，共涉及[202条罪名](meta/accu.txt)，[183条法条](meta/law.txt)，刑期长短包括**0-25年、无期、死刑**。
 
 我们将先后发布CAIL2018-Small和CAIL2018-Large两组数据集。CAIL2018-Small包括19.6万份文书样例，直接在该网站发布，包括15万训练集，1.6万验证集和3万测试集。CAIL2018-Large数据集，包括150万文书样例。剩余90万份文书将作为第一阶段的测试数据CAIL2018-Large-test。
 
@@ -66,13 +66,23 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 }
 ```
 
-### 2.3 评价方法
+### 2.3 数据集下载
+
+**CAIL2018数据集**已经正式发布下载，下载地址为 [CAIL2018数据集](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip)。
+
+##### 引用说明
+
+如果您引用CAIL2018数据集发表论文或取得科研成果，请您在发表论文和申报成果时声明“使用了CAIL2018数据集”，并按如下格式引用：
+
+* Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction. arXiv preprint arXiv:1807.02478, 2018.
+
+### 2.4 评价方法
 
 本次挑战赛使用的数据集均为来自中国裁判文书网上的刑事法律文书，标准答案是案件的判决结果。我们提供了评测时使用的评分程序共选手使用，评测方法、环境和模型提交说明请看[链接](https://github.com/thunlp/CAIL2018)。
 
 每项任务满分100分，下面将对三项任务的评价方法分别进行说明：
 
-#### 2.3.1 任务一、任务二
+#### 2.4.1 任务一、任务二
 
 任务一（罪名预测）、任务二（法条推荐）两项任务将采用分类任务中的微平均F1值（Micro-F1-measure）和宏平均F1值（Macro-F1-measure）作为评价指标，其计算方式为：
 
@@ -82,7 +92,7 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 ![score1](pic/score_1.png)
 
-#### 2.3.2 任务三
+#### 2.4.2 任务三
 
 任务三（刑期预测）将采用下列公式，根据预测出的刑期与案件标准刑期之间的差值距离作为评价指标。设预测出的刑期为`lp`，标准答案为`la`，则
 
@@ -102,14 +112,14 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 ![score3](pic/score_3.png)
 
-#### 2.3.3 三项任务总分的计算方式
+#### 2.4.3 三项任务总分的计算方式
 
 每个任务的满分均为100，则总分为：
 
 ![score_all](pic/score_all.png)
 
 
-### 2.4 基线系统
+### 2.5 基线系统
 
 竞赛组织方提供了一个开源的针对不同任务的基线系统（[LibSVM](https://github.com/thunlp/CAIL2018/tree/master/baseline)）。
 
