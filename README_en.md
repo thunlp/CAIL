@@ -26,7 +26,7 @@ The contestants can one or more tasks to take part in the competition. Meanwhile
 
 The data of the competition comes from the law documents of criminal cases published on  [Chinese Judgment Online](http://wenshu.court.gov.cn/). Every document contains the fact description and the details of the cases. Relevant articles, the charges of the defendants, and the term of penalty are also included in every case.
 
-The dataset contains `2,680,000 criminal law documents`，covered [202 charges](meta/accu.txt)，[183 articles](meta/law.txt)，and the term of penalty varies from **0 to 25 years, including the life imprisonment and the death penalty**.
+The dataset contains 2,680,000 criminal law documents，covered [202 charges](meta/accu.txt)，[183 articles](meta/law.txt)，and the term of penalty varies from **0 to 25 years, including the life imprisonment and the death penalty**.
 
 There are two parts of our dataset called CAIL2018-Small and CAIL2018-Large. CAIL2018-Small contains about 196,000 documents in total, including about 150,000 documents for training, 16,000 documents for validating and 30,000 documents for testing. CAIL2018-Large contains 1,500,000 documents for training, and another 900,000 documents for testing.
 
@@ -65,7 +65,15 @@ Here is an example of the data:
 }
 ```
 
-### 2.3
+### 2.3 Dataset Download
+
+**CAIL2018 Dataset** can be download from [here](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip).
+
+##### Reference
+
+If you use CAIL2018 dataset to publish papers or academic achievements, you should declare that you use CAIL2018 dataset and cite as follows:
+
+- Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu. CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction. arXiv preprint arXiv:1807.02478, 2018.
 
 ### 2.4 Evaluation Methods
 
