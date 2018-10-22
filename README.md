@@ -4,8 +4,9 @@ English version can be found [here](https://github.com/thunlp/CAIL/blob/master/R
 
 ## 目录
 
-* [简介](#简介)
-* [任务说明](#任务说明)
+* [简介](#一简介)
+* [任务说明](#二任务说明)
+* [FAQ](#faq)
 
 ## 一、简介
 
