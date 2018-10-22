@@ -2,8 +2,9 @@
 
 ## Content
 
-* [Introduction](Introduction)
-* [Task Specification](Task Specification)
+* [Introduction](#1-introduction)
+* [Task Specification](#2-task-specification)
+* [FAQ](#faq)
 
 ## 1. Introduction
 
