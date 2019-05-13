@@ -1,6 +1,6 @@
 [submodule "CAIL2018"]
 	path = CAIL2018
-	url = git@github.com:thunlp/CAIL2018.git
+	url = git@github.com:china-ai-law-challenge/CAIL2018.git
 [submodule "CAIL2019"]
 	path = CAIL2019
-	url = git@github.com:thunlp/CAIL2019.git
+	url = git@github.com:china-ai-law-challenge/CAIL2019.git
